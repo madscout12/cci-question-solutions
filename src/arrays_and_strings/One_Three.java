@@ -1,6 +1,10 @@
+/*
+* 1.3Given two strings, write a method to decide if one is a permutation of the other.
+*
+*/
+
 package arrays_and_strings;
 
-import java.nio.charset.CharsetEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 

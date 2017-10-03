@@ -1,5 +1,5 @@
 /*
- * 1.1 Implement an algorithm to determine if a string has all unique charecters.
+ * 1.1 Implement an algorithm to determine if a string has all unique characters.
  * What if you cannot use additional data structures?
  *
  * The below implementation "hasNoDuplicates"doesn't use additional data structures.
