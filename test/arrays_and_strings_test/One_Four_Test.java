@@ -15,6 +15,14 @@ public class One_Four_Test {
     }
 
     @Test
+    public void checkEmpty() {
+        char[] theArray = new char[5];
+        One_Four theFour = new One_Four(theArray);
+        theFour.replace();
+        Assert.assertEquals(theFour.getString(), new String(new char[5]));
+    }
+
+    @Test
     public void testStrings() {
         String one = "string with spaces";
         String result = "string%20with%20spaces";

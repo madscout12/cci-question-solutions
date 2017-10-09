@@ -45,4 +45,6 @@ public class One_Eight_Test {
         Assert.assertFalse(theEight.isRotation(not2));
         Assert.assertFalse(theEight.isRotation(not3));
     }
+
+
 }

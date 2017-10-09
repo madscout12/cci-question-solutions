@@ -20,7 +20,7 @@ public class One_Four {
         if (theArray == null) return;
         int index = findLastChar();
 
-        for (int i = theArray.length - 1; i >= 0; i--) {
+        for (int i = theArray.length - 1; i >= 0 && index >= 0; i--) {
             if (theArray[index] == 32) {
                 theArray[i] = '0';
                 theArray[i - 1] = '2';
