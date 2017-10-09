@@ -1,6 +1,6 @@
 //TODO: Add test showing execution time for a non-trivial string of characters.
 
-package Arrays_Strings;
+package arrays_and_strings_test;
 
 import arrays_and_strings.One_One;
 import org.junit.Assert;

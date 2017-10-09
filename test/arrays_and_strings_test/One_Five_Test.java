@@ -1,4 +1,4 @@
-package Arrays_Strings;
+package arrays_and_strings_test;
 
 import arrays_and_strings.One_Five;
 import org.junit.Assert;

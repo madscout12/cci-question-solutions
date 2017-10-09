@@ -18,6 +18,6 @@ public class One_Eight {
     }
 
     public boolean isRotation(String rotate) {
-        return theString != null && rotate != null && theString.contains(rotate) && rotate.length() == length;
+        return theString != null && rotate != null && rotate.length() == length && theString.contains(rotate);
     }
 }
