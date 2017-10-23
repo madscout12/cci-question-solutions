@@ -15,6 +15,14 @@ public class Two_Seven_Test {
     }
 
     @Test
+    public void checkEmpty() {
+        LinkedList<Character> theList = makeList("");
+        Two_Seven theSeven = new Two_Seven(theList);
+        Assert.assertTrue(theSeven.checkPalindrome());
+    }
+
+
+    @Test
     public void checkEvenPalin() {
         LinkedList<Character> theList = makeList("abba");
         Two_Seven theSeven = new Two_Seven(theList);
